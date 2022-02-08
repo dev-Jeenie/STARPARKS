@@ -244,7 +244,7 @@ const EntryStackNavigator = () => {
     <EntryStack.Navigator
       initialRouteName={principal ? 'HomeStackNavigator' : 'AuthStack'}
       screenOptions={{
-        // headerShown: false,
+        headerShown: false,
         title: '',
         headerStyle: {
           backgroundColor: theme.colors.defaultBackground,
